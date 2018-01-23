@@ -3,6 +3,12 @@
 <button (click)="addPost(txtTitle.value, txtData.value)">Add</button>
 <ul>
     <li *ngFor="let post of posts">
-        {{post.title}} - {{post.data | date:'dd/MM/yyyy'}}
+        <!-- <div [ngClass]="{'highlight':post.qtdLikes > 10, 'lowlight': post.qtdLikes <= 2}"> -->
+        <div [class.highlight]="post.qtdLikes > 10" [class.lowlight]="post.qtdLikes <= 2" [style.border-color]="post.qtdLikes < 2 ?'red': 'black'">
+            {{post.title}} - {{post.data | date:'dd/MM/yyyy'}} ({{post.qtdLikes || 0}})
+            <button (click)="like(post, $event)">Like</button>
+            <button (click)="dislike(post, $event)">Dislike</button>
+            <app-numeric-up-down [val]="1" [maxVal]="maxVal" [minVal]="minVal" (change)="ratingChange($event)"></app-numeric-up-down>
+        </div>
     </li>
 </ul>

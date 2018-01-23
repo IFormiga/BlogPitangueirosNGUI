@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './hello/hello-world.component';
 import { PostListComponent } from './post-list/post-list.component';
 import { PostComponent } from './post/post.component';
+import { NumericUpDownComponent } from './numeric-up-down/numeric-up-down.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { PostComponent } from './post/post.component';
     AppComponent,
     HelloWorldComponent,
     PostListComponent,
-    PostComponent
+    PostComponent,
+    NumericUpDownComponent
   ],
   imports: [
     BrowserModule
