@@ -1,0 +1,12 @@
+<div>
+    Nome:
+    <!-- <input type="text" [value]="pessoa.nome"
+    (input)="pessoa.nome = $event.target.value"> -->
+    <input type="text" [(ngModel)]="pessoa.nome">
+    <!-- <input type="text" [ngModel]="pessoa.nome" (ngModelChanges)="pessoa.nome = $event"> -->
+</div>
+<div>
+    Telefone: <input type="tel" [(ngModel)]="pessoa.telefone">
+</div>
+O nome da pessoa é '{{pessoa.nome}}' e seu telefone: '{{pessoa.telefone}}' Idade: {{idade}}
+<button>Salvar</button>
