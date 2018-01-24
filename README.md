@@ -6,38 +6,38 @@
 - [OK] 04: Introdução ao TypeScript para Angular
 - [OK] 05: Módulos (ngModule)
 - [OK] 06: Templates
-- 07: Serviços (Services) e Injeção de dependência (DI)*****
+- 07: Serviços (Services) e Injeção de dependência (DI)
 - [OK] 08: Dicas plugins Angular para Atom e VS Code
 - [OK] 09: Property binding + Interpolation
 - [OK] 10: Class e Style binding
  
 - [OK] 11: Event binding
-- 12: Two-way data binding
+- [OK] 12: Two-way data binding
 - [OK] 13: Input properties
 - [OK] 14: Output properties
-- 15: Ciclo de vida (life-cycle) do Componente
+- [OK] 15: Ciclo de vida (life-cycle) do Componente
 - 16: Acesso ao DOM e ao Template com ViewChild
 - [OK] 17: Angular CLI: Instalação e criação de projetos: ng new e ng serve
 - [PARCIAL] 18: Angular CLI: Criando components, services: ng generate
-- 19: Angular CLI: Usando pré-processadores (Sass, Less, Stylus)
+- [OK] 19: Angular CLI: Usando pré-processadores (Sass, Less, Stylus)
 - [NAO COBERTO] 20: Angular CLI: ng lint, ng test, ng e2e
 - 21: Angular CLI: Estrutura do projeto
 - 22: Angular CLI: Gerando build de produção
-- 23: Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)
+- **[OK] 23: Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)**
  
 - 24: Introdução e tipos de diretivas no Angular 2
-- 25: Diretivas: ngIf
+- **[OK]25: Diretivas: ngIf**
 - 26: Diretivas: ngSwitch, ngSwitchCase e ngSwitchDefault
-- 27: Diretivas: ngFor
-- 28: Diretivas: sobre o * e template
+- **[OK] 27: Diretivas: ngFor**
+- [OK]28: Diretivas: sobre o * e template
 - [OK] 29: Diretivas: ngClass
 - [OK] 30: Diretivas: ngStyle
-- 31: Operador Elvis
+- [OK] 31: Operador Elvis ?
 - 32: ng-content
 - 33: Criando uma diretiva de atributo: ElementRef e Renderer
 - 34: Diretivas: HostListener e HostBinding
-- 35: Diretivas: Input e Property Binding
-- 36: Criando uma diretiva de estrutura (ngElse)
+- [OK] 35: Diretivas: Input e Property Binding
+- [NATIVO DO ngIf] 36: Criando uma diretiva de estrutura (ngElse)
  
 - 37: Introdução a Serviços
 - 38: Criando um serviço (Service)
