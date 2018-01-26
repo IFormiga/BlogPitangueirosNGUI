@@ -1,0 +1,9 @@
+<h1 #titulo>Lista de Posts</h1>
+<ul *ngIf="!postsCarregando">
+    <li *ngFor="let post of posts; let i = index">
+        <app-post-remoto [id]="i" [post]="post"></app-post-remoto>
+    </li>
+</ul>
+<span #carregando *ngIf="postsCarregando">
+  Carregando posts...
+</span>

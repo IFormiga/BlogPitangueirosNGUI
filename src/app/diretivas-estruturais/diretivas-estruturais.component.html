@@ -1,0 +1,57 @@
+<h1>
+    diretivas-estruturais (ngIf, ngSwitch, ngFor)!
+</h1>
+<div class="row">
+    <div class="col-12">
+        <h2>*ngIf</h2>
+        <div>
+            <button (click)="show = !show">{{show ? 'Esconder' : 'Mostrar'}}</button> show = {{show}}
+        </div>
+        <div *ngIf="show then thenBlock; else elseBlock"></div>
+        <ng-template #thenBlock>
+            Se show
+        </ng-template>
+        <ng-template #elseBlock>
+            Se !show
+        </ng-template>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, nobis. Distinctio possimus obcaecati quasi laborum veniam minus ullam esse maxime dolores ut illum, assumenda quae mollitia vel eius totam nobis.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad maiores voluptate itaque. Explicabo minima accusamus, inventore soluta deleniti quasi aliquam odit neque impedit vel ab alias, commodi eveniet veritatis deserunt.</p>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col-12">
+        <h2>ngFor</h2>
+        <div>
+            <li *ngFor="let post of posts; index as i; first as isFirst; last as isLast">
+                {{i + 1}}/{{posts.length}}. {{post.title}}
+                <span *ngIf="isFirst;else item">(Primeiro)</span>
+                <ng-template #item>(item)</ng-template>
+                {{$odd}}
+                <span *ngIf="isLast">(ultimo)</span>
+            </li>
+        </div>
+        <hr>
+        <div>
+            <table>
+
+                <tbody>
+                    <tr *ngFor="let post of posts; index as i; first as isFirst; last as isLast;even as isEven" [style.background-color]="isFirst ? '#CCC': '#FFF'" [style.background-color]="isEven && !isFirst ? 'lightsteelblue': '#FFF'">
+                        <td>{{post.title}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <hr>
+        <div>
+            <li *ngFor="let post of postsObservable | async; index as i; first as isFirst; last as isLast">
+                {{i + 1}}/{{posts.length}}. {{post.title}}
+                <span *ngIf="isFirst;else item">(Primeiro)</span>
+                <ng-template #item>(item)</ng-template>
+                {{$odd}}
+                <span *ngIf="isLast">(ultimo)</span>
+            </li>
+        </div>
+    </div>
+</div>
