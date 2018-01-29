@@ -3,6 +3,7 @@ import { PostService } from '../post.service';
 import { PostModel } from '../shared/models/post.model';
 import 'rxjs/add/operator/finally';
 import 'rxjs/add/operator/delay';
+
 import { Observable } from 'rxjs/Observable';
 
 @Component({
@@ -13,7 +14,7 @@ import { Observable } from 'rxjs/Observable';
 export class PostListRemotoComponent implements OnInit {
 
   posts: PostModel[];
-
+  postsObservable: Observable<PostModel[]>;
   postsCarregando = false;
 
   @ViewChild('titulo')
@@ -22,19 +23,21 @@ export class PostListRemotoComponent implements OnInit {
   constructor(private postService: PostService) { }
 
   ngOnInit() {
-    this.postsCarregando = true;
-    this.postService.consultarPosts()
-      .finally(() => {
-        this.postsCarregando = false;
-      })
-      .delay(3000)
-      .subscribe((postsResult) => {
-        this.posts = postsResult;
-      });
 
-      // Não é recomendado modificar as propriedades nativas diretamente
-      this.titulo.nativeElement.style.backgroundColor = 'red';
-      console.log(this.titulo);
-  }
+   this.postsObservable = this.postService.consultarPosts();
+     //   this.postsCarregando = true;
+  //   this.postService.consultarPosts()
+  //     .finally(() => {
+  //       this.postsCarregando = false;
+  //     })
+  //     .delay(3000)
+  //     .subscribe((postsResult) => {
+  //       this.posts = postsResult;
+  //     });
+
+  //     // Não é recomendado modificar as propriedades nativas diretamente
+  //     this.titulo.nativeElement.style.backgroundColor = 'red';
+  //     console.log(this.titulo);
+  // }
 
 }

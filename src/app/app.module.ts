@@ -16,6 +16,9 @@ import { PostListRemotoComponent } from './post-list-remoto/post-list-remoto.com
 import { PostService } from './post.service';
 import { PostRemotoComponent } from './post-remoto/post-remoto.component';
 import { DiretivasEstruturaisComponent } from './diretivas-estruturais/diretivas-estruturais.component';
+import { CardComponent } from './card/card.component';
+import { DistancePipe } from './shared/pipes/distance.pipe';
+import { PipesComponent } from './pipes/pipes.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,7 +30,10 @@ import { DiretivasEstruturaisComponent } from './diretivas-estruturais/diretivas
     ImportarBibliotecasComponent,
     PostListRemotoComponent,
     PostRemotoComponent,
-    DiretivasEstruturaisComponent
+    DiretivasEstruturaisComponent,
+    CardComponent,
+    DistancePipe,
+    PipesComponent
   ],
   imports: [
     BrowserModule,

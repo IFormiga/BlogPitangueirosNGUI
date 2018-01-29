@@ -1,9 +1,19 @@
 <h1 #titulo>Lista de Posts</h1>
-<ul *ngIf="!postsCarregando">
+<!-- <ul *ngIf="!postsCarregando">
     <li *ngFor="let post of posts; let i = index">
         <app-post-remoto [id]="i" [post]="post"></app-post-remoto>
     </li>
 </ul>
 <span #carregando *ngIf="postsCarregando">
   Carregando posts...
-</span>
+</span> -->
+<ul *ngIf="this.postsObservable | async as posts2 else loading">
+    <li *ngFor="let post of posts2; let i = index">
+        <app-post-remoto [id]="i" [post]="post"></app-post-remoto>
+    </li>
+</ul>
+<ng-template #loading>
+    <span>
+        Carregando posts...
+      </span>
+</ng-template>
