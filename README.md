@@ -6,7 +6,7 @@
 - [OK] 04: Introdução ao TypeScript para Angular
 - [OK] 05: Módulos (ngModule)
 - [OK] 06: Templates
-- 07: Serviços (Services) e Injeção de dependência (DI)
+- [OK] 07: Serviços (Services) e Injeção de dependência (DI)
 - [OK] 08: Dicas plugins Angular para Atom e VS Code
 - [OK] 09: Property binding + Interpolation
 - [OK] 10: Class e Style binding
@@ -16,7 +16,7 @@
 - [OK] 13: Input properties
 - [OK] 14: Output properties
 - [OK] 15: Ciclo de vida (life-cycle) do Componente
-- 16: Acesso ao DOM e ao Template com ViewChild
+- [OK] 16: Acesso ao DOM e ao Template com ViewChild
 - [OK] 17: Angular CLI: Instalação e criação de projetos: ng new e ng serve
 - [PARCIAL] 18: Angular CLI: Criando components, services: ng generate
 - [OK] 19: Angular CLI: Usando pré-processadores (Sass, Less, Stylus)
@@ -26,32 +26,32 @@
 - **[OK] 23: Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)**
  
 - 24: Introdução e tipos de diretivas no Angular 2
-- **[OK]25: Diretivas: ngIf**
-- 26: Diretivas: ngSwitch, ngSwitchCase e ngSwitchDefault
-- **[OK] 27: Diretivas: ngFor**
-- [OK]28: Diretivas: sobre o * e template
+- [OK] 25: Diretivas: ngIf
+- [OK] 26: Diretivas: ngSwitch, ngSwitchCase e ngSwitchDefault
+- [OK] 27: Diretivas: ngFor
+- [OK] 28: Diretivas: sobre o * e template
 - [OK] 29: Diretivas: ngClass
 - [OK] 30: Diretivas: ngStyle
 - [OK] 31: Operador Elvis ?
-- 32: ng-content
-- 33: Criando uma diretiva de atributo: ElementRef e Renderer
+- [OK] 32: ng-content
+- [OK] 33: Criando uma diretiva de atributo: ElementRef e **Renderer**
 - 34: Diretivas: HostListener e HostBinding
 - [OK] 35: Diretivas: Input e Property Binding
 - [NATIVO DO ngIf] 36: Criando uma diretiva de estrutura (ngElse)
  
-- 37: Introdução a Serviços
-- 38: Criando um serviço (Service)
-- 39: Injeção de Dependência (DI) + como usar um serviço em um componente
-- 40: Escopo de instâncias de serviços e módulos (singleton e várias instâncias)
-- 41: Comunicação entre componentes usando serviços (broadcast de eventos)
-- 42: Injetando um serviço em outro serviço
+- [OK] 37: Introdução a Serviços
+- [OK] 38: Criando um serviço (Service)
+- [OK] 39: Injeção de Dependência (DI) + como usar um serviço em um componente
+- [OK] 40: Escopo de instâncias de serviços e módulos (singleton e várias instâncias)
+- **41: Comunicação entre componentes usando serviços (broadcast de eventos)**
+- [OK] 42: Injetando um serviço em outro serviço
  
-- 43: Pipes (usando pipes, parâmetros e pipes aninhados)
-- 44: Criando um Pipe
+- [OK] 43: Pipes (usando pipes, parâmetros e pipes aninhados)
+- [OK] 44: Criando um Pipe
 - 45: Aplicando Locale (internacionalização) nos Pipes
-- 46: Pipes: Criando um Pipe “Puro”
-- 47: Pipes: Criando um Pipe “Impuro”
-- 48: Pipes: Async (assíncrono)
+- [OK] 46: Pipes: Criando um Pipe “Puro”
+- [OK] 47: Pipes: Criando um Pipe “Impuro”
+- [OK] 48: Pipes: Async (assíncrono)
 - 49: Rotas: Introdução
 - 50: Rotas: Configurando rotas simples
 - 51: Rotas: RouterLink: definindo rotas no template
