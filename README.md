@@ -26,14 +26,14 @@
 - **[OK] 23: Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)**
  
 - 24: Introdução e tipos de diretivas no Angular 2
-- [OK]25: Diretivas: ngIf
+- [OK] 25: Diretivas: ngIf
 - [OK] 26: Diretivas: ngSwitch, ngSwitchCase e ngSwitchDefault
 - [OK] 27: Diretivas: ngFor
-- [OK]28: Diretivas: sobre o * e template
+- [OK] 28: Diretivas: sobre o * e template
 - [OK] 29: Diretivas: ngClass
 - [OK] 30: Diretivas: ngStyle
 - [OK] 31: Operador Elvis ?
-- 32: ng-content
+- [OK] 32: ng-content
 - [OK] 33: Criando uma diretiva de atributo: ElementRef e **Renderer**
 - 34: Diretivas: HostListener e HostBinding
 - [OK] 35: Diretivas: Input e Property Binding
@@ -46,12 +46,12 @@
 - **41: Comunicação entre componentes usando serviços (broadcast de eventos)**
 - [OK] 42: Injetando um serviço em outro serviço
  
-- 43: Pipes (usando pipes, parâmetros e pipes aninhados)
-- 44: Criando um Pipe
+- [OK] 43: Pipes (usando pipes, parâmetros e pipes aninhados)
+- [OK] 44: Criando um Pipe
 - 45: Aplicando Locale (internacionalização) nos Pipes
-- 46: Pipes: Criando um Pipe “Puro”
-- 47: Pipes: Criando um Pipe “Impuro”
-- 48: Pipes: Async (assíncrono)
+- [OK] 46: Pipes: Criando um Pipe “Puro”
+- [OK] 47: Pipes: Criando um Pipe “Impuro”
+- [OK] 48: Pipes: Async (assíncrono)
 - 49: Rotas: Introdução
 - 50: Rotas: Configurando rotas simples
 - 51: Rotas: RouterLink: definindo rotas no template
