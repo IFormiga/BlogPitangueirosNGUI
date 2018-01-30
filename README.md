@@ -25,7 +25,7 @@
 - 22: Angular CLI: Gerando build de produção
 - **[OK] 23: Angular CLI: instalando bibliotecas (bootstrap, jquery, materialize, lodash)**
  
-- 24: Introdução e tipos de diretivas no Angular 2
+- [OK] 24: Introdução e tipos de diretivas no Angular 2
 - [OK] 25: Diretivas: ngIf
 - [OK] 26: Diretivas: ngSwitch, ngSwitchCase e ngSwitchDefault
 - [OK] 27: Diretivas: ngFor
@@ -35,7 +35,7 @@
 - [OK] 31: Operador Elvis ?
 - [OK] 32: ng-content
 - [OK] 33: Criando uma diretiva de atributo: ElementRef e **Renderer**
-- 34: Diretivas: HostListener e HostBinding
+- [OK] 34: Diretivas: HostListener e HostBinding
 - [OK] 35: Diretivas: Input e Property Binding
 - [NATIVO DO ngIf] 36: Criando uma diretiva de estrutura (ngElse)
  
