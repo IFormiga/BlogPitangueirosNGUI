@@ -52,17 +52,17 @@
 - [OK] 46: Pipes: Criando um Pipe “Puro”
 - [OK] 47: Pipes: Criando um Pipe “Impuro”
 - [OK] 48: Pipes: Async (assíncrono)
-- 49: Rotas: Introdução
-- 50: Rotas: Configurando rotas simples
-- 51: Rotas: RouterLink: definindo rotas no template
-- 52: Rotas: Aplicando CSS em rotas ativas
+- [OK] 49: Rotas: Introdução
+- [OK] 50: Rotas: Configurando rotas simples
+- [OK] 51: Rotas: RouterLink: definindo rotas no template
+- [OK] 52: Rotas: Aplicando CSS em rotas ativas
  
 - 53: Rotas: Definindo e extraindo parâmetros de roteamento
 - 54: Rotas: Escutando mudanças nos parâmetros de roteamento
-- 55: Rotas Imperativas: Redirecionamento via código
+- [OK] 55: Rotas Imperativas: Redirecionamento via código
 - 56: Rotas: Definindo e extraindo parâmetros de url (query)
-- 57: Rotas: Criando um módulo de rotas
-- 58: Criando um módulo de funcionalidade
+- [OK] 57: Rotas: Criando um módulo de rotas
+- [OK] 58: Criando um módulo de funcionalidade
 - 59: Rotas: Criando um módulo de rotas de funcionalidade
 - 60: Rotas Filhas
 - 61: Rotas Filhas: desenvolvendo as telas
@@ -75,7 +75,7 @@
 - 67: Usando Guarda de Rotas: CanDeactivate com Interface Genérica
 - 68: Usando Guarda de Rotas: Resolve: carregando dados antes da rota ser ativada
 - 69: Usando Guarda de Rotas: CanLoad: como não carregar o módulo sem permissão
-- 70: Definindo rota padrão e wildcard (rota não encontrada)
+- [OK] 70: Definindo rota padrão e wildcard (rota não encontrada)
 - 71: Estilo de url: HTML5 ou usando #
  
 - 72: Formulários (template vs data / reativo) Introdução
