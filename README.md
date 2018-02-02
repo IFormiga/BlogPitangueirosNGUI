@@ -57,24 +57,26 @@
 - [OK] 51: Rotas: RouterLink: definindo rotas no template
 - [OK] 52: Rotas: Aplicando CSS em rotas ativas
  
-- 53: Rotas: Definindo e extraindo parâmetros de roteamento
-- 54: Rotas: Escutando mudanças nos parâmetros de roteamento
+- [OK] 53: Rotas: Definindo e extraindo parâmetros de roteamento
+- [OK] 54: Rotas: Escutando mudanças nos parâmetros de roteamento
 - [OK] 55: Rotas Imperativas: Redirecionamento via código
-- 56: Rotas: Definindo e extraindo parâmetros de url (query)
+- [OK] 56: Rotas: Definindo e extraindo parâmetros de url (query)
 - [OK] 57: Rotas: Criando um módulo de rotas
 - [OK] 58: Criando um módulo de funcionalidade
 - 59: Rotas: Criando um módulo de rotas de funcionalidade
-- 60: Rotas Filhas
+- [OK] 60: Rotas Filhas
 - 61: Rotas Filhas: desenvolvendo as telas
 - 62: Rotas: Dica de Performance: Carregamento sob demanda (lazy loading)
 - 63: Rotas: Tela de Login e como não mostrar o Menu (NavBar)
  
-- 64: Usando Guarda de Rotas: CanActivate
+- [OK] 64: Usando Guarda de Rotas: CanActivate
 - 65: Usando Guarda de Rotas: CanActivateChild
-- 66: Usando Guarda de Rotas: CanDeactivate
+- [OK] 66: Usando Guarda de Rotas: CanDeactivate
 - 67: Usando Guarda de Rotas: CanDeactivate com Interface Genérica
+**
 - 68: Usando Guarda de Rotas: Resolve: carregando dados antes da rota ser ativada
 - 69: Usando Guarda de Rotas: CanLoad: como não carregar o módulo sem permissão
+**
 - [OK] 70: Definindo rota padrão e wildcard (rota não encontrada)
 - 71: Estilo de url: HTML5 ou usando #
  
