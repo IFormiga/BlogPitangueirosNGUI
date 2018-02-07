@@ -78,36 +78,36 @@
 - [OK] 70: Definindo rota padrão e wildcard (rota não encontrada)
 - [OK] 71: Estilo de url: HTML5 ou usando #
  
-- 72: Formulários (template vs data / reativo) Introdução
-- 73: Formulários – Criando o projeto inicial com Bootstrap 3
+- [OK] 72: Formulários (template vs data / reativo) Introdução
+- ** 73: Formulários – Criando o projeto inicial com Bootstrap 3 **
  
 - /******************* ITENS QUE DAREMOS POUCO FOCO ***********************/
-- 74: Forms (template driven) Controles ngForm, ngSubmit e ngModel
-- 75: Forms (template driven) Inicializando valores com ngModel (two-way data-binding)
-- 76: Forms (template driven) Módulos e FormsModule
+- [OK] 74: Forms (template driven) Controles ngForm, ngSubmit e ngModel
+- [OK] 75: Forms (template driven) Inicializando valores com ngModel (two-way data-binding)
+- [OK] 76: Forms (template driven) Módulos e FormsModule
 - 77: Forms (template driven) Aplicando validação nos campos
 - 78: Forms (template driven) Aplicando CSS na validação dos campos
 - 79: Forms (template driven) Mostrando mensagens de erro de validação
-- 80: Forms (template driven) Desabilitando o botão de submit para formulário inválido
-- 81: Forms (Dica): Verificando dados do Form no template com JSON
-- 82: Forms (template driven) Adicionando campos de endereço (form layout Bootstrap 3)
+- [OK] 80: Forms (template driven) Desabilitando o botão de submit para formulário inválido
+- [OK] 81: Forms (Dica): Verificando dados do Form no template com JSON
+- [OK] 82: Forms (template driven) Adicionando campos de endereço (form layout Bootstrap 3)
 - 83: Forms (template driven) Refatorando (simplificando) CSS e mensagens de erro
-- 84: Forms (template driven) Form groups (agrupando dados)
+- [OK] 84: Forms (template driven) Form groups (agrupando dados)
 - 85: Forms (template driven) Pesquisando endereço automaticamente com CEP
 - 86: Forms (template driven) Populando campos com setValue e patchValue (autocomplete CEP)
 - 87: Forms (template driven) Submetendo valores com HTTP POST
 - /******************* FIM: ITENS QUE DAREMOS POUCO FOCO ***********************/
  
-- 88: Formulários reativos (data driven) Introdução
-- 89: Formulários reativos: Configuração (Módulo e Componente)
-- 90: Formulários reativos: Criando um form com código Angular
-- 91: Formulários reativos: Sincronizando HTML com FormGroup
-- 92: Formulários reativos: Fazendo submit
-- 93: Formulários reativos: Resetando o form
-- 94: Formulários reativos: Aplicando validação nos campos
+- [OK] 88: Formulários reativos (data driven) Introdução
+- [OK] 89: Formulários reativos: Configuração (Módulo e Componente)
+- [OK] 90: Formulários reativos: Criando um form com código Angular
+- [OK] 91: Formulários reativos: Sincronizando HTML com FormGroup
+- [OK] 92: Formulários reativos: Fazendo submit
+- [OK] 93: Formulários reativos: Resetando o form
+- [OK] 94: Formulários reativos: Aplicando validação nos campos
 - 95: Formulários reativos: Acesso ao FormControl no HTML e CSS de validação dos campos
 - 96: Formulários reativos: Campos de endereço (migrando um form template driven para form reativo)
-- 97: Formulários reativos: Form groups (agrupando dados)
+- [OK] 97: Formulários reativos: Form groups (agrupando dados)
 - 98: Formulários reativos: Autopopulando endereço com CEP (setValue e patchValue)
 - 99: Formulários reativos: Verificar validação dos campos com botão submit
 - 100: Formulários: Criando um serviço de Estados Brasileiros
